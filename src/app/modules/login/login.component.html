@@ -1,0 +1,114 @@
+<div class="f_0">
+  <img class="login_top_banner" src="https://ongeki-net.com/ongeki-mobile/img/banner_goods_campaign.png?ver=1.30.0">
+</div>
+<div class="login_container p_10 t_c">
+  <form (submit)="login()" [formGroup]="loginForm" method="post">
+    <div class="login_block black m_10 f_13 l_h_12">
+      <input maxlength="30" name="segaId" placeholder="{{ appIdName }}" type="text" formControlName="userName" value="">
+      <input autocomplete="off" maxlength="16" name="password" placeholder="密码" formControlName="password"
+        type="password">
+      <input data-com.bitwarden.browser.user-edited="yes" id="cookie" name="save_cookie" type="checkbox"
+        value="save_cookie">
+      <label class="checkbox" for="cookie">记住{{ appIdName }}</label><br>
+      <div class="f_12">（请不要在公共设备上勾选这个选项。）</div>
+      <div>同意<a class="sub_color" href="http://otogame-net.com/agreement/" target="_blank">服务条款</a>并登录</div>
+      <input name="token" type="hidden" value="">
+      <button class="btn_login_block" type="submit">
+        <img class="w_189 float_delay05" src="https://ongeki-net.com/ongeki-mobile/img/btn_login_back.png">
+        <img class="w_189 float" src="https://ongeki-net.com/ongeki-mobile/img/btn_login.png">
+      </button>
+      <div class="clearfix"></div>
+    </div>
+  </form>
+  <div class="m_10 p_10">
+    <div><a href="https://gw.sega.jp/gw/login/?product_name=ongeki" target="_blank"><img class="basic_btn h_40"
+          src="https://ongeki-net.com/ongeki-mobile/img/btn_charge_course_regist.png"></a>
+    </div>
+    <div><a href="https://cha.isao.net/profile_oem/OEMLogin.php?func=stop&amp;product_name=ongeki" target="_blank"><img
+          class="basic_btn h_40" src="https://ongeki-net.com/ongeki-mobile/img/btn_charge_course_cancel.png"></a></div>
+    <div><a class="black" href="https://my-aime.net/aime/jp/p/regist/create_select.html" target="_blank"><img
+          class="basic_btn h_40 m_5" src="https://ongeki-net.com/ongeki-mobile/img/btn_segaid.png"></a></div>
+    <div><a class="f_13 sub_color" href="https://gw.sega.jp/gw/login/remind.html" target="_blank">SEGA
+        ID/パスワードを忘れた場合はこちら</a></div>
+  </div>
+</div>
+<div class="f_0"><img src="https://ongeki-net.com/ongeki-mobile/img/line_01.png"></div>
+<div class="m_15"><img class="title" src="https://ongeki-net.com/ongeki-mobile/img/title_news.png"></div>
+<div class="f_0">
+  <div class="news_tab_block t_l">
+    <input id="tab_news" src="https://ongeki-net.com/ongeki-mobile/img/tab_news_off.png" type="image">
+    <input id="tab_info" src="https://ongeki-net.com/ongeki-mobile/img/tab_info.png" type="image">
+  </div>
+  <div class="tab_container p_15 t_l" id="news" style="display:none">
+    <div>
+      <p class="f_13 h_24 under_block">
+        2021/11/25 06:00　<img src="https://ongeki-net.com/ongeki-mobile/img/news_new.png"></p>
+      <form accept-charset="utf-8" action="/loginNewsDetail/" method="get">
+        <input name="idx" type="hidden" value="0">
+        <button class="f_b m_t_5 t_l white underline break" type="submit">
+          【11/25（木）開催！】む、温泉か！温泉といえば……『ぶらり湯けむり温泉郷』開催！
+        </button>
+      </form>
+    </div>
+    <hr>
+    <div>
+      <p class="f_13 h_24 under_block">
+        2021/11/18 06:00　 </p>
+      <form accept-charset="utf-8" action="/loginNewsDetail/" method="get">
+        <input name="idx" type="hidden" value="1">
+        <button class="f_b m_t_5 t_l white underline break" type="submit">【11/18(木)楽曲追加！】マジカルミライテーマソングが登場！
+        </button>
+      </form>
+    </div>
+    <hr>
+    <div>
+      <p class="f_13 h_24 under_block">
+        2021/11/11 06:00　 </p>
+      <form accept-charset="utf-8" action="/loginNewsDetail/" method="get">
+        <input name="idx" type="hidden" value="2">
+        <button class="f_b m_t_5 t_l white underline break" type="submit">【11/11（木）楽曲追加！】魔法かけて さよなら</button>
+      </form>
+    </div>
+    <hr>
+    <div>
+      <p class="f_13 h_24 under_block">
+        2021/11/04 06:00　 </p>
+      <form accept-charset="utf-8" action="/loginNewsDetail/" method="get">
+        <input name="idx" type="hidden" value="3">
+        <button class="f_b m_t_5 t_l white underline break" type="submit">
+          【11/4（木）開始！】おはようございナース！「名取さな」コラボイベント開催！
+        </button>
+      </form>
+    </div>
+    <hr>
+    <div>
+      <p class="f_13 h_24 under_block">
+        2021/11/04 06:00　 </p>
+      <form accept-charset="utf-8" action="/loginNewsDetail/" method="get">
+        <input name="idx" type="hidden" value="4">
+        <button class="f_b m_t_5 t_l white underline break" type="submit">【11/4（木）開始！】「アイドルマスター」シリーズ
+          ランキングイベント開始！
+        </button>
+      </form>
+    </div>
+    <hr>
+    <div class="t_r">
+      <a href="/loginNewsAll/"><img class="h_40" src="https://ongeki-net.com/ongeki-mobile/img/btn_more.png"></a>
+    </div>
+  </div>
+  <div class="tab_container p_15 t_l" id="info">
+  </div>
+  <div class="use_container f_0">
+    <img class="w_450" src="https://ongeki-net.com/ongeki-mobile/img/use_info_title.png">
+    <a href="https://gw.sega.jp/gw/create/create1.html" target="_blank"><img class="w_450"
+        src="https://ongeki-net.com/ongeki-mobile/img/use_info1.png"></a>
+    <a href="https://gw.sega.jp/gw/create/create1.html" target="_blank"><img class="w_450"
+        src="https://ongeki-net.com/ongeki-mobile/img/use_info2.png"></a>
+    <a href="https://my-aime.net/aime/jp/p/" target="_blank"><img class="w_450"
+        src="https://ongeki-net.com/ongeki-mobile/img/use_info3.png"></a>
+    <img class="w_450" src="https://ongeki-net.com/ongeki-mobile/img/use_info4.png">
+    <img class="w_160" src="https://ongeki-net.com/ongeki-mobile/img/info_chara2.png">
+    <a href="http://otogame-net.com/" target="_blank"><img class="w_212 m_10"
+        src="https://ongeki-net.com/ongeki-mobile/img/btn_use_info.png"></a>
+  </div>
+</div>

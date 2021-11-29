@@ -1,0 +1,826 @@
+<div class="m_15"><img class="title" src="https://ongeki-net.com/ongeki-mobile/img/title_setting.png"></div>
+<div class="container2 p_15">
+    <div class="f_b">オプション設定</div>
+    <form accept-charset="utf-8" action="/home/userOption/updateUserOption/update/"
+          method="post">
+        <div class="white_block p_10 f_14 t_l black">
+            <table>
+                <tbody>
+                <tr>
+                    <td>おすすめ設定</td>
+                    <td class="t_r">
+                        <select class="w_139" name="optionSet">
+                            <option value="0">初心者向け</option>
+                            <option value="1">中級者向け</option>
+                            <option value="2">上級者向け</option>
+                            <option selected="" value="3">詳細設定</option>
+                        </select>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="white_block p_10 f_14 t_l black">
+            <div class="detail_option_title game_option t_c">ゲーム設定</div>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>スピード設定</td>
+                    <td class="t_r">
+                        <select class="w_139" name="speed">
+                            <option value="0">1.0</option>
+                            <option value="1">1.5</option>
+                            <option value="2">2.0</option>
+                            <option value="3">2.5</option>
+                            <option value="4">3.0</option>
+                            <option value="5">3.5</option>
+                            <option value="6">4.0</option>
+                            <option value="7">4.5</option>
+                            <option value="8">5.0</option>
+                            <option value="9">5.5</option>
+                            <option value="10">6.0(標準)</option>
+                            <option value="11">6.5</option>
+                            <option value="12">7.0</option>
+                            <option value="13">7.5</option>
+                            <option value="14">8.0</option>
+                            <option value="15">8.5</option>
+                            <option value="16">9.0</option>
+                            <option value="17">9.5</option>
+                            <option value="18">10.0</option>
+                            <option value="19">10.5</option>
+                            <option value="20">11.0</option>
+                            <option value="21">11.5</option>
+                            <option selected="" value="22">12.0</option>
+                            <option value="23">12.5</option>
+                            <option value="24">13.0</option>
+                            <option value="25">13.5</option>
+                            <option value="26">14.0</option>
+                            <option value="27">14.5</option>
+                            <option value="28">15.0</option>
+                            <option value="29">15.5</option>
+                            <option value="30">16.0</option>
+                            <option value="31">16.5</option>
+                            <option value="32">17.0</option>
+                            <option value="33">17.5</option>
+                            <option value="34">18.0</option>
+                            <option value="35">18.5</option>
+                            <option value="36">19.0</option>
+                            <option value="37">19.5</option>
+                            <option value="38">SONIC</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">スピードを調整します　1～20(SONIC)から選択できます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>ミラー設定</td>
+                    <td class="t_r">
+                        <select class="w_139" name="mirror">
+                            <option selected="" value="0">OFF(標準)</option>
+                            <option value="1">ON</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ON にすると、ノーツ表示が左右反転します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>判定タイミング調整A</td>
+                    <td class="t_r">
+                        <select class="w_139" name="judgeTiming">
+                            <option value="0">-2.0</option>
+                            <option value="1">-1.9</option>
+                            <option value="2">-1.8</option>
+                            <option value="3">-1.7</option>
+                            <option value="4">-1.6</option>
+                            <option value="5">-1.5</option>
+                            <option value="6">-1.4</option>
+                            <option value="7">-1.3</option>
+                            <option value="8">-1.2</option>
+                            <option value="9">-1.1</option>
+                            <option value="10">-1.0</option>
+                            <option value="11">-0.9</option>
+                            <option value="12">-0.8</option>
+                            <option value="13">-0.7</option>
+                            <option value="14">-0.6</option>
+                            <option value="15">-0.5</option>
+                            <option value="16">-0.4</option>
+                            <option value="17">-0.3</option>
+                            <option value="18">-0.2</option>
+                            <option value="19">-0.1</option>
+                            <option selected="" value="20">0.0(標準)</option>
+                            <option value="21">+0.1</option>
+                            <option value="22">+0.2</option>
+                            <option value="23">+0.3</option>
+                            <option value="24">+0.4</option>
+                            <option value="25">+0.5</option>
+                            <option value="26">+0.6</option>
+                            <option value="27">+0.7</option>
+                            <option value="28">+0.8</option>
+                            <option value="29">+0.9</option>
+                            <option value="30">+1.0</option>
+                            <option value="31">+1.1</option>
+                            <option value="32">+1.2</option>
+                            <option value="33">+1.3</option>
+                            <option value="34">+1.4</option>
+                            <option value="35">+1.5</option>
+                            <option value="36">+1.6</option>
+                            <option value="37">+1.7</option>
+                            <option value="38">+1.8</option>
+                            <option value="39">+1.9</option>
+                            <option value="40">+2.0</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">判定のタイミングを調整します　-2.0～+2.0から選択できます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>判定タイミング調整B</td>
+                    <td class="t_r">
+                        <select class="w_139" name="judgeAdjustment">
+                            <option value="0">-2.0</option>
+                            <option value="1">-1.9</option>
+                            <option value="2">-1.8</option>
+                            <option value="3">-1.7</option>
+                            <option value="4">-1.6</option>
+                            <option value="5">-1.5</option>
+                            <option value="6">-1.4</option>
+                            <option value="7">-1.3</option>
+                            <option value="8">-1.2</option>
+                            <option value="9">-1.1</option>
+                            <option value="10">-1.0</option>
+                            <option value="11">-0.9</option>
+                            <option value="12">-0.8</option>
+                            <option value="13">-0.7</option>
+                            <option value="14">-0.6</option>
+                            <option value="15">-0.5</option>
+                            <option value="16">-0.4</option>
+                            <option value="17">-0.3</option>
+                            <option value="18">-0.2</option>
+                            <option value="19">-0.1</option>
+                            <option selected="" value="20">0.0(標準)</option>
+                            <option value="21">+0.1</option>
+                            <option value="22">+0.2</option>
+                            <option value="23">+0.3</option>
+                            <option value="24">+0.4</option>
+                            <option value="25">+0.5</option>
+                            <option value="26">+0.6</option>
+                            <option value="27">+0.7</option>
+                            <option value="28">+0.8</option>
+                            <option value="29">+0.9</option>
+                            <option value="30">+1.0</option>
+                            <option value="31">+1.1</option>
+                            <option value="32">+1.2</option>
+                            <option value="33">+1.3</option>
+                            <option value="34">+1.4</option>
+                            <option value="35">+1.5</option>
+                            <option value="36">+1.6</option>
+                            <option value="37">+1.7</option>
+                            <option value="38">+1.8</option>
+                            <option value="39">+1.9</option>
+                            <option value="40">+2.0</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ノーツの判定タイミングを調整します -2.0～+2.0から選択できます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>バトル中断設定</td>
+                    <td class="t_r">
+                        <select class="w_139" name="abort">
+                            <option value="0">OFF(標準)</option>
+                            <option selected="" value="1">S未達で中断</option>
+                            <option value="2">SS未達で中断</option>
+                            <option value="3">SSS未達で中断</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">テクニカルスコアが設定したランクに到達しない時点で、バトルを中断します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>ステルスフィールド</td>
+                    <td class="t_r">
+                        <select class="w_139" name="stealthField">
+                            <option selected="" value="0">OFF(標準)</option>
+                            <option value="1">ON</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ONにすると、フィールドが表示されなくなります</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+        </div>
+        <div class="white_block p_10 f_14 t_l black">
+            <div class="detail_option_title sound_option t_c">サウンド設定</div>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>TAP成功音</td>
+                    <td class="t_r">
+                        <select class="w_139" name="tapSound">
+                            <option selected="" value="0">オンゲキ(標準)</option>
+                            <option value="1">チュウニ</option>
+                            <option value="2">マイマイ</option>
+                            <option value="3">ウッドブロック</option>
+                            <option value="4">クラップ</option>
+                            <option value="5">レイン</option>
+                            <option value="6">ベル</option>
+                            <option value="7">キック＆シンバル</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">TAPノーツの効果音を変更できます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>成功音VOL(TAP)</td>
+                    <td class="t_r">
+                        <select class="w_139" name="volTap">
+                            <option value="0">OFF</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option selected="" value="3">3(標準)</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">TAPノーツの成功音VOLを調整します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>成功音VOL(CR-TAP)</td>
+                    <td class="t_r">
+                        <select class="w_139" name="volCrTap">
+                            <option value="0">OFF</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option selected="" value="3">3(標準)</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">CR-TAPノーツの成功音VOLを調整します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>成功音VOL(HOLD)</td>
+                    <td class="t_r">
+                        <select class="w_139" name="volHold">
+                            <option value="0">OFF</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option selected="" value="3">3(標準)</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">HOLDノーツの成功音VOLを調整します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>成功音VOL(SIDE)</td>
+                    <td class="t_r">
+                        <select class="w_139" name="volSide">
+                            <option value="0">OFF</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option selected="" value="3">3(標準)</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">SIDEノーツの成功音VOLを調整します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>成功音VOL(FLICK)</td>
+                    <td class="t_r">
+                        <select class="w_139" name="volFlick">
+                            <option value="0">OFF</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option selected="" value="3">3(標準)</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">FLICKノーツの成功音VOLを調整します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>ガイド音VOL</td>
+                    <td class="t_r">
+                        <select class="w_139" name="volGuide">
+                            <option value="0">OFF</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option selected="" value="3">3(標準)</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ガイド音VOLを調整します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>BELL音VOL</td>
+                    <td class="t_r">
+                        <select class="w_139" name="volBell">
+                            <option value="0">OFF</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option selected="" value="3">3(標準)</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">BELLを取った時の効果音の音量を調整します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>敵弾音VOL</td>
+                    <td class="t_r">
+                        <select class="w_139" name="volEnemy">
+                            <option value="0">OFF</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option selected="" value="3">3(標準)</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">敵の弾をギリギリで避けた時の効果音の音量を調整します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>減点カウント音VOL</td>
+                    <td class="t_r">
+                        <select class="w_139" name="volSkill">
+                            <option value="0">OFF</option>
+                            <option selected="" value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3(標準)</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">「バトル中断設定」がONの時、減点発生時の効果音の音量を調整します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>ダメージ音VOL</td>
+                    <td class="t_r">
+                        <select class="w_139" name="volDamage">
+                            <option selected="" value="0">OFF</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3(標準)</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ダメージを受けた時の効果音の音量を調整します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+        </div>
+        <div class="white_block p_10 f_14 t_l black">
+            <div class="detail_option_title back_option t_c">背景表示設定</div>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>フィールドの明るさ</td>
+                    <td class="t_r">
+                        <select class="w_139" name="colorField">
+                            <option value="0">-5</option>
+                            <option value="1">-4</option>
+                            <option selected="" value="2">-3</option>
+                            <option value="3">-2</option>
+                            <option value="4">-1</option>
+                            <option value="5">0(標準)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">フィールドの明るさを調整します　-5(黒)～0(標準)の6段階から選択できます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>レーンの明るさ</td>
+                    <td class="t_r">
+                        <select class="w_139" name="colorLaneBright">
+                            <option value="0">-3</option>
+                            <option value="1">-2</option>
+                            <option value="2">-1</option>
+                            <option selected="" value="3">0(標準)</option>
+                            <option value="4">+1</option>
+                            <option value="5">+2</option>
+                            <option value="6">+3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">レーンの明るさを調整します　-3(薄い)～+3(濃い)の7段階から選択できます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>SIDEレーンの明るさ</td>
+                    <td class="t_r">
+                        <select class="w_139" name="colorWallBright">
+                            <option value="0">-3</option>
+                            <option value="1">-2</option>
+                            <option value="2">-1</option>
+                            <option selected="" value="3">0(標準)</option>
+                            <option value="4">+1</option>
+                            <option value="5">+2</option>
+                            <option value="6">+3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">SIDEレーンの明るさを調整します　-3(薄い)～+3(濃い)の7段階から選択できます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>レーンカラー</td>
+                    <td class="t_r">
+                        <select class="w_139" name="colorLane">
+                            <option selected="" value="0">TYPE-A(標準)</option>
+                            <option value="1">TYPE-B</option>
+                            <option value="2">TYPE-C</option>
+                            <option value="3">TYPE-D</option>
+                            <option value="4">TYPE-E</option>
+                            <option value="5">TYPE-F</option>
+                            <option value="6">色覚サポート</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">レーンの色配置を変更できます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>SIDEカラー</td>
+                    <td class="t_r">
+                        <select class="w_139" name="colorSide">
+                            <option selected="" value="0">TYPE-A(標準)</option>
+                            <option value="1">TYPE-B</option>
+                            <option value="2">TYPE-C</option>
+                            <option value="3">TYPE-D</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">SIDEレーンの色配置を変更できます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>被弾演出</td>
+                    <td class="t_r">
+                        <select class="w_139" name="effectDamage">
+                            <option value="0">OFF</option>
+                            <option selected="" value="1">ON(標準)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ON にすると、弾を受けた時の画面演出が発生します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>キャラ座標表示</td>
+                    <td class="t_r">
+                        <select class="w_139" name="effectPos">
+                            <option value="0">OFF</option>
+                            <option selected="" value="1">ON(標準)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ON にすると、センターキャラクターの前方に座標線を表示します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+        </div>
+        <div class="white_block p_10 f_14 t_l black">
+            <div class="detail_option_title judge_option t_c">判定表示設定</div>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>PLATINUM判定表示</td>
+                    <td class="t_r">
+                        <select class="w_139" name="platinumBreakDisp">
+                            <option selected="" value="0">OFF</option>
+                            <option value="1">ON(標準)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ONにすると、PLATINUM BREAKの判定を表示します<br>※テクニカルチャレンジの対象楽曲でのみ表示されます
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>判定表示設定</td>
+                    <td class="t_r">
+                        <select class="w_139" name="judgeDisp">
+                            <option selected="" value="0">判定＆COMBO(標準)</option>
+                            <option value="1">判定のみ</option>
+                            <option value="2">COMBOのみ</option>
+                            <option value="3">OFF</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">フィールドに表示する判定/COMBO情報を設定します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>判定表示位置</td>
+                    <td class="t_r">
+                        <select class="w_139" name="judgePos">
+                            <option value="0">下</option>
+                            <option value="1">中(標準)</option>
+                            <option selected="" value="2">上</option>
+                            <option value="3">天</option>
+                            <option value="4">天上</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">判定が表示される位置を設定します　天上/天/上/中/下から選択できます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>判定詳細表示：CRITICAL</td>
+                    <td class="t_r">
+                        <select class="w_139" name="judgeCriticalBreak">
+                            <option selected="" value="0">OFF(標準)</option>
+                            <option value="1">ON</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ONにすると、CRITICAL BREAKの判定がベストタイミングに対して「FAST(早い)/
+                        LATE(遅い)」を表示します<br>※テクニカルチャレンジの対象楽曲でのみ表示されます
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>判定詳細表示：BREAK</td>
+                    <td class="t_r">
+                        <select class="w_139" name="judgeBreak">
+                            <option value="0">OFF(標準)</option>
+                            <option selected="" value="1">ON</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ON
+                        にすると、BREAKの判定がベストタイミングに対して「FAST(早い)/LATE(遅い)」を表示します
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>判定詳細表示：HIT</td>
+                    <td class="t_r">
+                        <select class="w_139" name="judgeHit">
+                            <option value="0">OFF(標準)</option>
+                            <option selected="" value="1">ON</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ON
+                        にすると、HITの判定がベストタイミングに対して「FAST(早い)/LATE(遅い)」を表示します
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+        </div>
+        <div class="white_block p_10 f_14 t_l black">
+            <div class="detail_option_title other_option t_c">その他の設定</div>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>マッチング通知</td>
+                    <td class="t_r">
+                        <select class="w_139" name="matching">
+                            <option value="0">OFF</option>
+                            <option selected="" value="1">ON(標準)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ON にすると、店内マッチングができます</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>プレイヤーレベル表示</td>
+                    <td class="t_r">
+                        <select class="w_139" name="dispPlayerLv">
+                            <option value="0">OFF</option>
+                            <option selected="" value="1">ON(標準)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ON にすると、ゲームプレイ中に、プレイヤーレベルを表示します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>レーティング表示</td>
+                    <td class="t_r">
+                        <select class="w_139" name="dispRating">
+                            <option value="0">OFF</option>
+                            <option selected="" value="1">ON(標準)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ON にすると、ゲームプレイ中に、レーティングを表示します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+            <table>
+                <tbody>
+                <tr>
+                    <td>バトルランク表示</td>
+                    <td class="t_r">
+                        <select class="w_139" name="dispBP">
+                            <option value="0">OFF</option>
+                            <option selected="" value="1">ON(標準)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="f_11 l_h_12 gray break" colspan="2">ON にすると、ゲームプレイ中に、バトルランクとＢＰ(バトルポイント)を表示します</td>
+                </tr>
+                </tbody>
+            </table>
+            <hr class="option_line">
+        </div>
+        <input name="token" type="hidden" value="d846ad202670fffb7d77680fc0e09419">
+        <button class="f_0" type="submit"><img class="basic_btn h_45"
+                                               src="https://ongeki-net.com/ongeki-mobile/img/btn_change.png"></button>
+    </form>
+</div>
+<hr class="gray_line">
+<div class="t_c">
+    <button class="f_0" onclick="location.href='/home/userOption/';" type="button">
+        <img src="https://ongeki-net.com/ongeki-mobile/img/btn_back.png"></button>
+</div>
