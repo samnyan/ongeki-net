@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkongeki_net=self.webpackChunkongeki_net||[]).push([[831],{9831:(g,u,o)=>{o.r(u),o.d(u,{RankingModule:()=>l});var e=o(6019),a=o(3556);let l=(()=>{class n{}return n.\u0275fac=function(d){return new(d||n)},n.\u0275mod=a.oAB({type:n}),n.\u0275inj=a.cJS({imports:[[e.ez]]}),n})()}}]);
