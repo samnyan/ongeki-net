@@ -1,5 +1,17 @@
 # OngekiNet
 
+一个纯静态的 ONGEKI NET
+
+预览地址： https://samnyan.github.io/ongeki-net/aimeList
+
+## 说明
+
+所有页面来自2021年的 https://ongeki-net.com/ongeki-mobile/ ，但页面整体没有太多变化，目前依然可以作为参考。
+
+包含除了会员功能页面以外的页面元素，可用于学习和提取素材，也可以 fork 后做 WebUI
+
+## Angular
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.3.
 
 ## Development server
